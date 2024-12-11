@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Education</title>
     <style>
+    
     body{
         background-color: #1e90ff;
     }
@@ -12,9 +13,21 @@
     h1{
         text-decoration: underline;
     }
+    
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+    
+    th {
+    text-align: center;
+    background-color: #e0ecf8;
+    }
 
-    img{
-        border-radius: 50%;
+    td, th {
+    border: 1px solid black;
+    padding: 8px;
     }
 
     .introduce {
@@ -48,47 +61,45 @@
 </head>
 <body>
     <hr />
-
     <div class="introduce">
     <div class="pagination">
-        <a href="#" class="active">Home</a>
-        <a href="./education.html">Education</a>
-        <a href="./work.html">Work Experience</a>
-        <a href="./contact.html">Contact Me</a>
+        <a href="./index1.html">Home</a> 
+        <a href="#" class="active">Education</a> 
+        <a href="./index3.html">Work Experience</a> 
+        <a href="./index4.html">Contact Me</a> 
     </div>
-    </div>
-
-    <hr />
-    <div class="introduce">
-    <h1>Worachot Paijinda</h1>
-    <h3>Full-Stack Developer</h3>
-    <img src="./pic/mypic.jpg" alt="my picture" height="150px">
-    <p>Energetic web developer with certificated from Codecamp Thailand (#19). <br />Codecamp is one of the best developer's bootcamp in Thailand.</p>
     </div>
     <hr />
-
+    
     <div class="introduce">
-    <strong style="text-decoration: underline;">Personal Info</strong>
-    <br />
-    <p><img src="./pic/location-pin-svgrepo-com.svg" alt="" height="25px"> <strong>Location :</strong> Saraburi, Thailand</p>
-    <p><img src="./pic/phone-calling-svgrepo-com.svg" alt="" height="25px"> <strong>Phone :</strong> (66)3-2304550</p>
-    <p><img src="./pic/email-8-svgrepo-com.svg" alt="" height="25px"> <strong>E-mail :</strong> edenpuma33@gmail.com </p>
-    <p><img src="./pic/line-svgrepo-com.svg" alt="" height="25px"> <strong>Line ID :</strong> puma.worachot</p>
+    <h1>Education</h1>
+    <img src="./pic/education-cap-svgrepo-com.svg" alt="" height="150px">
+    <img src="./pic/DSC09382.jpg" alt="" height="200px">
+    <table>
+        <tr>
+            <th colspan="2">Year</th>
+            <th rowspan="2">School/University</th>
+        </tr>
+        <tr>
+            <th>from</th>
+            <th>to</th>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>2024</td>
+            <td>Chulalongkorn University</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>2020</td>
+            <td>Armed Forces Academies Preparatory School</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>2018</td>
+            <td>Saraburi Witthayakhom School</td>
+        </tr>
+    </table>
     </div>
-    <hr />
-
-    <div class="introduce">
-    <strong style="text-decoration: underline;">Skills</strong>
-    <ul>
-        <li>UX/UI Design (Figma)</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git</li>
-        <li>React.JS</li>
-        <li>MySQL</li>
-    </ul>
-    </div>
-
 </body>
 </html>
